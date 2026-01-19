@@ -59,6 +59,15 @@
           "z": 1000.00
         },
         {
+          "config": "{\"name\":\"5bb56c5c9b3916130314\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13,\"y\":135,\"width\":170,\"height\":571,\"z\":3001,\"tabOrder\":3001}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Sales.Sales)\"}],\"Category\":[{\"queryRef\":\"Date.Month\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sales\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Sales\"}},\"Function\":0},\"Name\":\"Sum(Sales.Sales)\",\"NativeReferenceName\":\"Sum of Sales\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month\"},\"Name\":\"Date.Month\",\"NativeReferenceName\":\"Month\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 571.00,
+          "width": 170.00,
+          "x": 13.00,
+          "y": 135.00,
+          "z": 3001.00
+        },
+        {
           "config": "{\"name\":\"719def66f037fb72aca0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":707.1428571428572,\"y\":135.71428571428572,\"z\":2000,\"width\":550,\"height\":570,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Date.Month\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Sales.Sales)\"},{\"queryRef\":\"Targets.Target\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0},{\"Name\":\"t\",\"Entity\":\"Targets\",\"Type\":0},{\"Name\":\"s\",\"Entity\":\"Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month\"},\"Name\":\"Date.Month\",\"NativeReferenceName\":\"Month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Target\"},\"Name\":\"Targets.Target\",\"NativeReferenceName\":\"Target\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Sales\"}},\"Function\":0},\"Name\":\"Sum(Sales.Sales)\",\"NativeReferenceName\":\"Sales\"}]},\"columnProperties\":{\"Sum(Sales.Sales)\":{\"displayName\":\"Sales\"}},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 570.00,
